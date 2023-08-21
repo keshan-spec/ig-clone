@@ -1,10 +1,11 @@
-import { PostCardSkeleton } from '../components/Posts/PostCardSkeleton';
-import { PostCard } from '../components/Posts/PostCard';
-import { useObservedQuery } from '../hooks/useObservedQuery';
 import { IPosts } from 'types';
 
+import { useObservedQuery } from '../hooks/useObservedQuery';
+import { PostCardSkeleton } from '../components/Posts/PostCardSkeleton';
+import { PostCard } from '../components/Posts/PostCard';
+
 export const Posts: React.FC = () => {
-    const { data, hasNextPage, isLoading, isFetchingNextPage } = useObservedQuery();
+    const { data, isLoading, isFetchingNextPage, error } = useObservedQuery();
 
     const renderLoading = () => {
         // 3 post card skeletons
@@ -16,6 +17,20 @@ export const Posts: React.FC = () => {
             </>
         );
     }
+
+    const renderFetching = () => {
+        return (
+            <div className="flex justify-center items-center mb-4">
+                <div className="animate-spin rounded-full h-10 w-10 border-t-2 border-b-2 border-gray-900 dark:border-white"></div>
+            </div>
+        );
+    }
+
+    if (error instanceof Error) return (
+        <div className="text-center text-red-500">
+            <h1>Something went wrong.</h1>
+        </div>
+    );
 
     return (
         <>
@@ -36,8 +51,7 @@ export const Posts: React.FC = () => {
             })}
 
             {isLoading && renderLoading()}
-            {isFetchingNextPage && <div>Fetching...</div>}
-            {!hasNextPage && <div>No more posts</div>}
+            {isFetchingNextPage && renderFetching()}
         </>
     );
 }

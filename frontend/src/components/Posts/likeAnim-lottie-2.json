@@ -39,6 +39,9 @@
                             "t": 9,
                             "s": [
                                 0
+                            ],
+                            "__fnct": [
+                                null
                             ]
                         },
                         {
@@ -61,6 +64,9 @@
                             "t": 15,
                             "s": [
                                 100
+                            ],
+                            "__fnct": [
+                                null
                             ]
                         },
                         {
@@ -128,6 +134,11 @@
                                 157,
                                 157,
                                 100
+                            ],
+                            "__fnct": [
+                                null,
+                                null,
+                                null
                             ]
                         },
                         {
@@ -168,16 +179,17 @@
                             },
                             "nm": "Ellipse Path 1",
                             "mn": "ADBE Vector Shape - Ellipse",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "fl",
                             "c": {
                                 "a": 0,
                                 "k": [
-                                    0.988235353956,
-                                    0.20000001496,
-                                    0.380392186782,
+                                    0.9877,
+                                    0.1923,
+                                    0.1923,
                                     1
                                 ],
                                 "ix": 4
@@ -191,7 +203,8 @@
                             "bm": 2,
                             "nm": "Fill 1",
                             "mn": "ADBE Vector Graphic - Fill",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "tr",
@@ -239,7 +252,8 @@
                                 "k": 0,
                                 "ix": 5
                             },
-                            "nm": "Transform"
+                            "nm": "Transform",
+                            "_render": true
                         }
                     ],
                     "nm": "Ellipse 2",
@@ -248,7 +262,8 @@
                     "bm": 0,
                     "ix": 1,
                     "mn": "ADBE Vector Group",
-                    "hd": false
+                    "hd": false,
+                    "_render": true
                 },
                 {
                     "ty": "gr",
@@ -274,16 +289,17 @@
                             },
                             "nm": "Ellipse Path 1",
                             "mn": "ADBE Vector Shape - Ellipse",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "fl",
                             "c": {
                                 "a": 0,
                                 "k": [
-                                    0.988235353956,
-                                    0.20000001496,
-                                    0.380392186782,
+                                    0.9877,
+                                    0.1923,
+                                    0.1923,
                                     1
                                 ],
                                 "ix": 4
@@ -297,7 +313,8 @@
                             "bm": 2,
                             "nm": "Fill 1",
                             "mn": "ADBE Vector Graphic - Fill",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "tr",
@@ -345,7 +362,8 @@
                                 "k": 0,
                                 "ix": 5
                             },
-                            "nm": "Transform"
+                            "nm": "Transform",
+                            "_render": true
                         }
                     ],
                     "nm": "Ellipse 1",
@@ -354,13 +372,15 @@
                     "bm": 0,
                     "ix": 2,
                     "mn": "ADBE Vector Group",
-                    "hd": false
+                    "hd": false,
+                    "_render": true
                 }
             ],
             "ip": 0,
             "op": 30.0000012219251,
             "st": 0,
-            "bm": 0
+            "bm": 0,
+            "completed": true
         },
         {
             "ddd": 0,
@@ -392,6 +412,9 @@
                             "t": 9,
                             "s": [
                                 0
+                            ],
+                            "__fnct": [
+                                null
                             ]
                         },
                         {
@@ -414,6 +437,9 @@
                             "t": 15,
                             "s": [
                                 100
+                            ],
+                            "__fnct": [
+                                null
                             ]
                         },
                         {
@@ -481,6 +507,11 @@
                                 157,
                                 157,
                                 100
+                            ],
+                            "__fnct": [
+                                null,
+                                null,
+                                null
                             ]
                         },
                         {
@@ -521,16 +552,17 @@
                             },
                             "nm": "Ellipse Path 1",
                             "mn": "ADBE Vector Shape - Ellipse",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "fl",
                             "c": {
                                 "a": 0,
                                 "k": [
-                                    0.988235353956,
-                                    0.20000001496,
-                                    0.380392186782,
+                                    0.9877,
+                                    0.1923,
+                                    0.1923,
                                     1
                                 ],
                                 "ix": 4
@@ -544,7 +576,8 @@
                             "bm": 2,
                             "nm": "Fill 1",
                             "mn": "ADBE Vector Graphic - Fill",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "tr",
@@ -592,7 +625,8 @@
                                 "k": 0,
                                 "ix": 5
                             },
-                            "nm": "Transform"
+                            "nm": "Transform",
+                            "_render": true
                         }
                     ],
                     "nm": "Ellipse 2",
@@ -601,7 +635,8 @@
                     "bm": 0,
                     "ix": 1,
                     "mn": "ADBE Vector Group",
-                    "hd": false
+                    "hd": false,
+                    "_render": true
                 },
                 {
                     "ty": "gr",
@@ -627,16 +662,17 @@
                             },
                             "nm": "Ellipse Path 1",
                             "mn": "ADBE Vector Shape - Ellipse",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "fl",
                             "c": {
                                 "a": 0,
                                 "k": [
-                                    0.988235353956,
-                                    0.20000001496,
-                                    0.380392186782,
+                                    0.9877,
+                                    0.1923,
+                                    0.1923,
                                     1
                                 ],
                                 "ix": 4
@@ -650,7 +686,8 @@
                             "bm": 2,
                             "nm": "Fill 1",
                             "mn": "ADBE Vector Graphic - Fill",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "tr",
@@ -698,7 +735,8 @@
                                 "k": 0,
                                 "ix": 5
                             },
-                            "nm": "Transform"
+                            "nm": "Transform",
+                            "_render": true
                         }
                     ],
                     "nm": "Ellipse 1",
@@ -707,13 +745,15 @@
                     "bm": 0,
                     "ix": 2,
                     "mn": "ADBE Vector Group",
-                    "hd": false
+                    "hd": false,
+                    "_render": true
                 }
             ],
             "ip": 0,
             "op": 30.0000012219251,
             "st": 0,
-            "bm": 0
+            "bm": 0,
+            "completed": true
         },
         {
             "ddd": 0,
@@ -745,6 +785,9 @@
                             "t": 9,
                             "s": [
                                 0
+                            ],
+                            "__fnct": [
+                                null
                             ]
                         },
                         {
@@ -767,6 +810,9 @@
                             "t": 15,
                             "s": [
                                 100
+                            ],
+                            "__fnct": [
+                                null
                             ]
                         },
                         {
@@ -834,6 +880,11 @@
                                 157,
                                 157,
                                 100
+                            ],
+                            "__fnct": [
+                                null,
+                                null,
+                                null
                             ]
                         },
                         {
@@ -874,16 +925,17 @@
                             },
                             "nm": "Ellipse Path 1",
                             "mn": "ADBE Vector Shape - Ellipse",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "fl",
                             "c": {
                                 "a": 0,
                                 "k": [
-                                    0.988235353956,
-                                    0.20000001496,
-                                    0.380392186782,
+                                    0.9877,
+                                    0.1923,
+                                    0.1923,
                                     1
                                 ],
                                 "ix": 4
@@ -897,7 +949,8 @@
                             "bm": 2,
                             "nm": "Fill 1",
                             "mn": "ADBE Vector Graphic - Fill",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "tr",
@@ -945,7 +998,8 @@
                                 "k": 0,
                                 "ix": 5
                             },
-                            "nm": "Transform"
+                            "nm": "Transform",
+                            "_render": true
                         }
                     ],
                     "nm": "Ellipse 2",
@@ -954,7 +1008,8 @@
                     "bm": 0,
                     "ix": 1,
                     "mn": "ADBE Vector Group",
-                    "hd": false
+                    "hd": false,
+                    "_render": true
                 },
                 {
                     "ty": "gr",
@@ -980,16 +1035,17 @@
                             },
                             "nm": "Ellipse Path 1",
                             "mn": "ADBE Vector Shape - Ellipse",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "fl",
                             "c": {
                                 "a": 0,
                                 "k": [
-                                    0.988235353956,
-                                    0.20000001496,
-                                    0.380392186782,
+                                    0.9877,
+                                    0.1923,
+                                    0.1923,
                                     1
                                 ],
                                 "ix": 4
@@ -1003,7 +1059,8 @@
                             "bm": 2,
                             "nm": "Fill 1",
                             "mn": "ADBE Vector Graphic - Fill",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "tr",
@@ -1051,7 +1108,8 @@
                                 "k": 0,
                                 "ix": 5
                             },
-                            "nm": "Transform"
+                            "nm": "Transform",
+                            "_render": true
                         }
                     ],
                     "nm": "Ellipse 1",
@@ -1060,13 +1118,15 @@
                     "bm": 0,
                     "ix": 2,
                     "mn": "ADBE Vector Group",
-                    "hd": false
+                    "hd": false,
+                    "_render": true
                 }
             ],
             "ip": 0,
             "op": 30.0000012219251,
             "st": 0,
-            "bm": 0
+            "bm": 0,
+            "completed": true
         },
         {
             "ddd": 0,
@@ -1098,6 +1158,9 @@
                             "t": 9,
                             "s": [
                                 0
+                            ],
+                            "__fnct": [
+                                null
                             ]
                         },
                         {
@@ -1120,6 +1183,9 @@
                             "t": 15,
                             "s": [
                                 100
+                            ],
+                            "__fnct": [
+                                null
                             ]
                         },
                         {
@@ -1187,6 +1253,11 @@
                                 157,
                                 157,
                                 100
+                            ],
+                            "__fnct": [
+                                null,
+                                null,
+                                null
                             ]
                         },
                         {
@@ -1227,16 +1298,17 @@
                             },
                             "nm": "Ellipse Path 1",
                             "mn": "ADBE Vector Shape - Ellipse",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "fl",
                             "c": {
                                 "a": 0,
                                 "k": [
-                                    0.988235353956,
-                                    0.20000001496,
-                                    0.380392186782,
+                                    0.9877,
+                                    0.1923,
+                                    0.1923,
                                     1
                                 ],
                                 "ix": 4
@@ -1250,7 +1322,8 @@
                             "bm": 2,
                             "nm": "Fill 1",
                             "mn": "ADBE Vector Graphic - Fill",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "tr",
@@ -1298,7 +1371,8 @@
                                 "k": 0,
                                 "ix": 5
                             },
-                            "nm": "Transform"
+                            "nm": "Transform",
+                            "_render": true
                         }
                     ],
                     "nm": "Ellipse 2",
@@ -1307,7 +1381,8 @@
                     "bm": 0,
                     "ix": 1,
                     "mn": "ADBE Vector Group",
-                    "hd": false
+                    "hd": false,
+                    "_render": true
                 },
                 {
                     "ty": "gr",
@@ -1333,16 +1408,17 @@
                             },
                             "nm": "Ellipse Path 1",
                             "mn": "ADBE Vector Shape - Ellipse",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "fl",
                             "c": {
                                 "a": 0,
                                 "k": [
-                                    0.988235353956,
-                                    0.20000001496,
-                                    0.380392186782,
+                                    0.9877,
+                                    0.1923,
+                                    0.1923,
                                     1
                                 ],
                                 "ix": 4
@@ -1356,7 +1432,8 @@
                             "bm": 2,
                             "nm": "Fill 1",
                             "mn": "ADBE Vector Graphic - Fill",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "tr",
@@ -1404,7 +1481,8 @@
                                 "k": 0,
                                 "ix": 5
                             },
-                            "nm": "Transform"
+                            "nm": "Transform",
+                            "_render": true
                         }
                     ],
                     "nm": "Ellipse 1",
@@ -1413,13 +1491,15 @@
                     "bm": 0,
                     "ix": 2,
                     "mn": "ADBE Vector Group",
-                    "hd": false
+                    "hd": false,
+                    "_render": true
                 }
             ],
             "ip": 0,
             "op": 30.0000012219251,
             "st": 0,
-            "bm": 0
+            "bm": 0,
+            "completed": true
         },
         {
             "ddd": 0,
@@ -1451,6 +1531,9 @@
                             "t": 9,
                             "s": [
                                 0
+                            ],
+                            "__fnct": [
+                                null
                             ]
                         },
                         {
@@ -1473,6 +1556,9 @@
                             "t": 15,
                             "s": [
                                 100
+                            ],
+                            "__fnct": [
+                                null
                             ]
                         },
                         {
@@ -1540,6 +1626,11 @@
                                 157,
                                 157,
                                 100
+                            ],
+                            "__fnct": [
+                                null,
+                                null,
+                                null
                             ]
                         },
                         {
@@ -1580,16 +1671,17 @@
                             },
                             "nm": "Ellipse Path 1",
                             "mn": "ADBE Vector Shape - Ellipse",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "fl",
                             "c": {
                                 "a": 0,
                                 "k": [
-                                    0.988235353956,
-                                    0.20000001496,
-                                    0.380392186782,
+                                    0.9877,
+                                    0.1923,
+                                    0.1923,
                                     1
                                 ],
                                 "ix": 4
@@ -1603,7 +1695,8 @@
                             "bm": 2,
                             "nm": "Fill 1",
                             "mn": "ADBE Vector Graphic - Fill",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "tr",
@@ -1651,7 +1744,8 @@
                                 "k": 0,
                                 "ix": 5
                             },
-                            "nm": "Transform"
+                            "nm": "Transform",
+                            "_render": true
                         }
                     ],
                     "nm": "Ellipse 2",
@@ -1660,7 +1754,8 @@
                     "bm": 0,
                     "ix": 1,
                     "mn": "ADBE Vector Group",
-                    "hd": false
+                    "hd": false,
+                    "_render": true
                 },
                 {
                     "ty": "gr",
@@ -1686,16 +1781,17 @@
                             },
                             "nm": "Ellipse Path 1",
                             "mn": "ADBE Vector Shape - Ellipse",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "fl",
                             "c": {
                                 "a": 0,
                                 "k": [
-                                    0.988235353956,
-                                    0.20000001496,
-                                    0.380392186782,
+                                    0.9877,
+                                    0.1923,
+                                    0.1923,
                                     1
                                 ],
                                 "ix": 4
@@ -1709,7 +1805,8 @@
                             "bm": 2,
                             "nm": "Fill 1",
                             "mn": "ADBE Vector Graphic - Fill",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "tr",
@@ -1757,7 +1854,8 @@
                                 "k": 0,
                                 "ix": 5
                             },
-                            "nm": "Transform"
+                            "nm": "Transform",
+                            "_render": true
                         }
                     ],
                     "nm": "Ellipse 1",
@@ -1766,13 +1864,15 @@
                     "bm": 0,
                     "ix": 2,
                     "mn": "ADBE Vector Group",
-                    "hd": false
+                    "hd": false,
+                    "_render": true
                 }
             ],
             "ip": 0,
             "op": 30.0000012219251,
             "st": 0,
-            "bm": 0
+            "bm": 0,
+            "completed": true
         },
         {
             "ddd": 0,
@@ -1804,6 +1904,9 @@
                             "t": 9,
                             "s": [
                                 0
+                            ],
+                            "__fnct": [
+                                null
                             ]
                         },
                         {
@@ -1826,6 +1929,9 @@
                             "t": 15,
                             "s": [
                                 100
+                            ],
+                            "__fnct": [
+                                null
                             ]
                         },
                         {
@@ -1893,6 +1999,11 @@
                                 157,
                                 157,
                                 100
+                            ],
+                            "__fnct": [
+                                null,
+                                null,
+                                null
                             ]
                         },
                         {
@@ -1933,16 +2044,17 @@
                             },
                             "nm": "Ellipse Path 1",
                             "mn": "ADBE Vector Shape - Ellipse",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "fl",
                             "c": {
                                 "a": 0,
                                 "k": [
-                                    0.988235353956,
-                                    0.20000001496,
-                                    0.380392186782,
+                                    0.9877,
+                                    0.1923,
+                                    0.1923,
                                     1
                                 ],
                                 "ix": 4
@@ -1956,7 +2068,8 @@
                             "bm": 2,
                             "nm": "Fill 1",
                             "mn": "ADBE Vector Graphic - Fill",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "tr",
@@ -2004,7 +2117,8 @@
                                 "k": 0,
                                 "ix": 5
                             },
-                            "nm": "Transform"
+                            "nm": "Transform",
+                            "_render": true
                         }
                     ],
                     "nm": "Ellipse 2",
@@ -2013,7 +2127,8 @@
                     "bm": 0,
                     "ix": 1,
                     "mn": "ADBE Vector Group",
-                    "hd": false
+                    "hd": false,
+                    "_render": true
                 },
                 {
                     "ty": "gr",
@@ -2039,16 +2154,17 @@
                             },
                             "nm": "Ellipse Path 1",
                             "mn": "ADBE Vector Shape - Ellipse",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "fl",
                             "c": {
                                 "a": 0,
                                 "k": [
-                                    0.988235353956,
-                                    0.20000001496,
-                                    0.380392186782,
+                                    0.9877,
+                                    0.1923,
+                                    0.1923,
                                     1
                                 ],
                                 "ix": 4
@@ -2062,7 +2178,8 @@
                             "bm": 2,
                             "nm": "Fill 1",
                             "mn": "ADBE Vector Graphic - Fill",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "tr",
@@ -2110,7 +2227,8 @@
                                 "k": 0,
                                 "ix": 5
                             },
-                            "nm": "Transform"
+                            "nm": "Transform",
+                            "_render": true
                         }
                     ],
                     "nm": "Ellipse 1",
@@ -2119,13 +2237,15 @@
                     "bm": 0,
                     "ix": 2,
                     "mn": "ADBE Vector Group",
-                    "hd": false
+                    "hd": false,
+                    "_render": true
                 }
             ],
             "ip": 0,
             "op": 30.0000012219251,
             "st": 0,
-            "bm": 0
+            "bm": 0,
+            "completed": true
         },
         {
             "ddd": 0,
@@ -2157,6 +2277,9 @@
                             "t": 9,
                             "s": [
                                 0
+                            ],
+                            "__fnct": [
+                                null
                             ]
                         },
                         {
@@ -2179,6 +2302,9 @@
                             "t": 15,
                             "s": [
                                 100
+                            ],
+                            "__fnct": [
+                                null
                             ]
                         },
                         {
@@ -2246,6 +2372,11 @@
                                 157,
                                 157,
                                 100
+                            ],
+                            "__fnct": [
+                                null,
+                                null,
+                                null
                             ]
                         },
                         {
@@ -2286,16 +2417,17 @@
                             },
                             "nm": "Ellipse Path 1",
                             "mn": "ADBE Vector Shape - Ellipse",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "fl",
                             "c": {
                                 "a": 0,
                                 "k": [
-                                    0.988235353956,
-                                    0.20000001496,
-                                    0.380392186782,
+                                    0.9877,
+                                    0.1923,
+                                    0.1923,
                                     1
                                 ],
                                 "ix": 4
@@ -2309,7 +2441,8 @@
                             "bm": 2,
                             "nm": "Fill 1",
                             "mn": "ADBE Vector Graphic - Fill",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "tr",
@@ -2357,7 +2490,8 @@
                                 "k": 0,
                                 "ix": 5
                             },
-                            "nm": "Transform"
+                            "nm": "Transform",
+                            "_render": true
                         }
                     ],
                     "nm": "Ellipse 2",
@@ -2366,7 +2500,8 @@
                     "bm": 0,
                     "ix": 1,
                     "mn": "ADBE Vector Group",
-                    "hd": false
+                    "hd": false,
+                    "_render": true
                 },
                 {
                     "ty": "gr",
@@ -2392,16 +2527,17 @@
                             },
                             "nm": "Ellipse Path 1",
                             "mn": "ADBE Vector Shape - Ellipse",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "fl",
                             "c": {
                                 "a": 0,
                                 "k": [
-                                    0.988235353956,
-                                    0.20000001496,
-                                    0.380392186782,
+                                    0.9877,
+                                    0.1923,
+                                    0.1923,
                                     1
                                 ],
                                 "ix": 4
@@ -2415,7 +2551,8 @@
                             "bm": 2,
                             "nm": "Fill 1",
                             "mn": "ADBE Vector Graphic - Fill",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "tr",
@@ -2463,7 +2600,8 @@
                                 "k": 0,
                                 "ix": 5
                             },
-                            "nm": "Transform"
+                            "nm": "Transform",
+                            "_render": true
                         }
                     ],
                     "nm": "Ellipse 1",
@@ -2472,13 +2610,15 @@
                     "bm": 0,
                     "ix": 2,
                     "mn": "ADBE Vector Group",
-                    "hd": false
+                    "hd": false,
+                    "_render": true
                 }
             ],
             "ip": 0,
             "op": 30.0000012219251,
             "st": 0,
-            "bm": 0
+            "bm": 0,
+            "completed": true
         },
         {
             "ddd": 0,
@@ -2510,6 +2650,9 @@
                             "t": 5,
                             "s": [
                                 0
+                            ],
+                            "__fnct": [
+                                null
                             ]
                         },
                         {
@@ -2532,6 +2675,9 @@
                             "t": 6,
                             "s": [
                                 100
+                            ],
+                            "__fnct": [
+                                null
                             ]
                         },
                         {
@@ -2554,6 +2700,9 @@
                             "t": 9,
                             "s": [
                                 100
+                            ],
+                            "__fnct": [
+                                null
                             ]
                         },
                         {
@@ -2621,6 +2770,11 @@
                                 52,
                                 52,
                                 100
+                            ],
+                            "__fnct": [
+                                null,
+                                null,
+                                null
                             ]
                         },
                         {
@@ -2661,16 +2815,17 @@
                             },
                             "nm": "Ellipse Path 1",
                             "mn": "ADBE Vector Shape - Ellipse",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "st",
                             "c": {
                                 "a": 0,
                                 "k": [
-                                    0.988235353956,
-                                    0.20000001496,
-                                    0.380392186782,
+                                    0.9877,
+                                    0.1923,
+                                    0.1923,
                                     1
                                 ],
                                 "ix": 3
@@ -2691,7 +2846,8 @@
                             "bm": 0,
                             "nm": "Stroke 1",
                             "mn": "ADBE Vector Graphic - Stroke",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "tr",
@@ -2739,7 +2895,8 @@
                                 "k": 0,
                                 "ix": 5
                             },
-                            "nm": "Transform"
+                            "nm": "Transform",
+                            "_render": true
                         }
                     ],
                     "nm": "Ellipse 1",
@@ -2748,13 +2905,15 @@
                     "bm": 0,
                     "ix": 1,
                     "mn": "ADBE Vector Group",
-                    "hd": false
+                    "hd": false,
+                    "_render": true
                 }
             ],
             "ip": 0,
             "op": 30.0000012219251,
             "st": 0,
-            "bm": 0
+            "bm": 0,
+            "completed": true
         },
         {
             "ddd": 0,
@@ -2786,6 +2945,9 @@
                             "t": 5,
                             "s": [
                                 0
+                            ],
+                            "__fnct": [
+                                null
                             ]
                         },
                         {
@@ -2853,6 +3015,11 @@
                                 20,
                                 20,
                                 100
+                            ],
+                            "__fnct": [
+                                null,
+                                null,
+                                null
                             ]
                         },
                         {
@@ -2885,6 +3052,11 @@
                                 80,
                                 80,
                                 100
+                            ],
+                            "__fnct": [
+                                null,
+                                null,
+                                null
                             ]
                         },
                         {
@@ -2917,6 +3089,11 @@
                                 50,
                                 50,
                                 100
+                            ],
+                            "__fnct": [
+                                null,
+                                null,
+                                null
                             ]
                         },
                         {
@@ -2945,134 +3122,134 @@
                                 "k": {
                                     "i": [
                                         [
-                                            0,
-                                            0
+                                            0.017,
+                                            277.362
                                         ],
                                         [
-                                            0,
-                                            0
+                                            -282.622,
+                                            -3.41
                                         ],
                                         [
-                                            5.624,
-                                            33.015
+                                            -323.858,
+                                            -57.541
                                         ],
                                         [
-                                            -15.717,
-                                            29.909
+                                            -329.675,
+                                            -157.434
                                         ],
                                         [
-                                            -21.348,
-                                            14.949
+                                            -284.793,
+                                            -229.48
                                         ],
                                         [
-                                            -26.154,
-                                            4.042
+                                            -217.327,
+                                            -269.278
                                         ],
                                         [
-                                            -25.214,
-                                            -7.753
+                                            -138.232,
+                                            -275.42699999999996
                                         ],
                                         [
-                                            -18.735,
-                                            -17.844
+                                            -64.884,
+                                            -246.57399999999998
                                         ],
                                         [
-                                            0,
-                                            0
+                                            0.017,
+                                            -184.788
                                         ],
                                         [
-                                            0,
-                                            0
+                                            46.179,
+                                            -228.73
                                         ],
                                         [
-                                            -25.213,
-                                            7.753
+                                            87.83600000000001,
+                                            -259.921
                                         ],
                                         [
-                                            -26.152,
-                                            -4.042
+                                            165.051,
+                                            -277.36199999999997
                                         ],
                                         [
-                                            -21.346,
-                                            -14.947
+                                            242.13099999999997,
+                                            -259.376
                                         ],
                                         [
-                                            -11.85,
-                                            -22.571
+                                            302.138,
+                                            -209.914
                                         ],
                                         [
-                                            5.619,
-                                            -32.996
+                                            335.106,
+                                            -123.602
                                         ],
                                         [
-                                            24.812,
-                                            -23.639
+                                            307.494,
+                                            -27.133
                                         ]
                                     ],
                                     "o": [
                                         [
-                                            0,
-                                            0
+                                            0.017,
+                                            277.362
                                         ],
                                         [
-                                            -24.84,
-                                            -23.641
+                                            -307.462,
+                                            -27.051
                                         ],
                                         [
-                                            -5.625,
-                                            -33.015
+                                            -335.107,
+                                            -123.571
                                         ],
                                         [
-                                            11.852,
-                                            -22.571
+                                            -302.10600000000005,
+                                            -209.914
                                         ],
                                         [
-                                            21.347,
-                                            -14.947
+                                            -242.09799999999998,
+                                            -259.376
                                         ],
                                         [
-                                            26.153,
-                                            -4.042
+                                            -165.02,
+                                            -277.36199999999997
                                         ],
                                         [
-                                            25.215,
-                                            7.753
+                                            -87.803,
+                                            -259.921
                                         ],
                                         [
-                                            0,
-                                            0
+                                            -46.149,
+                                            -228.73
                                         ],
                                         [
-                                            0,
-                                            0
+                                            0.017,
+                                            -184.788
                                         ],
                                         [
-                                            18.734,
-                                            -17.844
+                                            64.91300000000001,
+                                            -246.57399999999998
                                         ],
                                         [
-                                            25.213,
-                                            -7.753
+                                            138.262,
+                                            -275.42699999999996
                                         ],
                                         [
-                                            26.155,
-                                            4.042
+                                            217.358,
+                                            -269.278
                                         ],
                                         [
-                                            21.347,
-                                            14.949
+                                            284.82399999999996,
+                                            -229.48
                                         ],
                                         [
-                                            15.695,
-                                            29.897
+                                            329.683,
+                                            -157.446
                                         ],
                                         [
-                                            -5.618,
-                                            32.996
+                                            323.869,
+                                            -57.60999999999999
                                         ],
                                         [
-                                            0,
-                                            0
+                                            282.682,
+                                            -3.494
                                         ]
                                     ],
                                     "v": [
@@ -3147,16 +3324,17 @@
                             },
                             "nm": "Path 1",
                             "mn": "ADBE Vector Shape - Group",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "fl",
                             "c": {
                                 "a": 0,
                                 "k": [
-                                    0.987999949736,
-                                    0.2,
-                                    0.380000005984,
+                                    0.8627,
+                                    0.149,
+                                    0.149,
                                     1
                                 ],
                                 "ix": 4
@@ -3170,7 +3348,8 @@
                             "bm": 0,
                             "nm": "Fill 1",
                             "mn": "ADBE Vector Graphic - Fill",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "tr",
@@ -3218,7 +3397,8 @@
                                 "k": 0,
                                 "ix": 5
                             },
-                            "nm": "Transform"
+                            "nm": "Transform",
+                            "_render": true
                         }
                     ],
                     "nm": "Group 1",
@@ -3227,13 +3407,15 @@
                     "bm": 0,
                     "ix": 1,
                     "mn": "ADBE Vector Group",
-                    "hd": false
+                    "hd": false,
+                    "_render": true
                 }
             ],
             "ip": 0,
             "op": 30.0000012219251,
             "st": 0,
-            "bm": 0
+            "bm": 0,
+            "completed": true
         },
         {
             "ddd": 0,
@@ -3265,6 +3447,9 @@
                             "t": 3,
                             "s": [
                                 100
+                            ],
+                            "__fnct": [
+                                null
                             ]
                         },
                         {
@@ -3332,6 +3517,11 @@
                                 60,
                                 60,
                                 100
+                            ],
+                            "__fnct": [
+                                null,
+                                null,
+                                null
                             ]
                         },
                         {
@@ -3360,150 +3550,150 @@
                                 "k": {
                                     "i": [
                                         [
-                                            13.859,
-                                            0
+                                            -136.93699999999998,
+                                            -240.744
                                         ],
                                         [
-                                            7.004,
-                                            -1.119
+                                            -164.979,
+                                            -240.19
                                         ],
                                         [
-                                            16.855,
-                                            -12.226
+                                            -212.466,
+                                            -227.546
                                         ],
                                         [
-                                            9.324,
-                                            -18.406
+                                            -259.981,
+                                            -186.9
                                         ],
                                         [
-                                            -4.467,
-                                            -27.191
+                                            -286.039,
+                                            -116.458
                                         ],
                                         [
-                                            -19.769,
-                                            -19.526
+                                            -264.28499999999997,
+                                            -37.393
                                         ],
                                         [
-                                            0,
-                                            0
+                                            0.007,
+                                            233.861
                                         ],
                                         [
-                                            0,
-                                            0
+                                            244.259,
+                                            -17.638
                                         ],
                                         [
-                                            -4.453,
-                                            27.178
+                                            277.10600000000005,
+                                            -62.129000000000005
                                         ],
                                         [
-                                            12.47,
-                                            24.628
+                                            281.80100000000004,
+                                            -143.86599999999999
                                         ],
                                         [
-                                            16.815,
-                                            12.226
+                                            246.148,
+                                            -203.094
                                         ],
                                         [
-                                            20.674,
-                                            3.307
+                                            192.657,
+                                            -235.764
                                         ],
                                         [
-                                            19.945,
-                                            -6.342
+                                            129.853,
+                                            -240.757
                                         ],
                                         [
-                                            14.736,
-                                            -14.574
+                                            71.636,
+                                            -216.99300000000002
                                         ],
                                         [
-                                            0,
-                                            0
+                                            14.568,
+                                            -160.667
                                         ],
                                         [
-                                            8.07,
-                                            7.961
+                                            -6.4830000000000005,
+                                            -152.719
                                         ],
                                         [
-                                            0,
-                                            0
+                                            -56.86,
+                                            -202.419
                                         ],
                                         [
-                                            19.918,
-                                            6.356
+                                            -89.976,
+                                            -228.072
                                         ]
                                     ],
                                     "o": [
                                         [
-                                            -7.084,
-                                            0
+                                            -157.88,
+                                            -240.744
                                         ],
                                         [
-                                            -20.646,
-                                            3.307
+                                            -192.62900000000002,
+                                            -235.764
                                         ],
                                         [
-                                            -16.828,
-                                            12.226
+                                            -246.149,
+                                            -203.094
                                         ],
                                         [
-                                            -12.496,
-                                            24.655
+                                            -281.801,
+                                            -143.839
                                         ],
                                         [
-                                            4.467,
-                                            27.192
+                                            -277.105,
+                                            -62.074999999999996
                                         ],
                                         [
-                                            0,
-                                            0
+                                            -244.516,
+                                            -17.867
                                         ],
                                         [
-                                            0,
-                                            0
+                                            0.007,
+                                            233.861
                                         ],
                                         [
-                                            20.053,
-                                            -19.823
+                                            264.312,
+                                            -37.461
                                         ],
                                         [
-                                            4.48,
-                                            -27.178
+                                            286.03900000000004,
+                                            -116.485
                                         ],
                                         [
-                                            -9.337,
-                                            -18.406
+                                            259.994,
+                                            -186.9
                                         ],
                                         [
-                                            -16.84,
-                                            -12.226
+                                            212.493,
+                                            -227.546
                                         ],
                                         [
-                                            -20.647,
-                                            -3.292
+                                            151.336,
+                                            -242.363
                                         ],
                                         [
-                                            -19.918,
-                                            6.356
+                                            89.99000000000001,
+                                            -228.059
                                         ],
                                         [
-                                            0,
-                                            0
+                                            56.9,
+                                            -202.419
                                         ],
                                         [
-                                            -8.07,
-                                            7.962
+                                            6.497999999999999,
+                                            -152.705
                                         ],
                                         [
-                                            0,
-                                            0
+                                            -14.553,
+                                            -160.68
                                         ],
                                         [
-                                            -14.776,
-                                            -14.588
+                                            -71.636,
+                                            -217.007
                                         ],
                                         [
-                                            -13.184,
-                                            -4.197
+                                            -123.078,
+                                            -238.625
                                         ]
                                     ],
                                     "v": [
@@ -3586,7 +3776,8 @@
                             },
                             "nm": "Path 1",
                             "mn": "ADBE Vector Shape - Group",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ind": 1,
@@ -3597,150 +3788,150 @@
                                 "k": {
                                     "i": [
                                         [
-                                            5.601,
-                                            0
+                                            5.608,
+                                            284.331
                                         ],
                                         [
-                                            3.901,
-                                            4.022
+                                            -10.964,
+                                            282.065
                                         ],
                                         [
-                                            0,
-                                            0
+                                            -273.947,
+                                            11.322
                                         ],
                                         [
-                                            5.91,
-                                            35.896
+                                            -316.577,
+                                            -46.650999999999996
                                         ],
                                         [
-                                            -16.504,
-                                            32.549
+                                            -322.783,
+                                            -154.689
                                         ],
                                         [
-                                            -22.131,
-                                            16.073
+                                            -275.81,
+                                            -232.795
                                         ],
                                         [
-                                            -27.07,
-                                            4.345
+                                            -205.59699999999998,
+                                            -275.66799999999995
                                         ],
                                         [
-                                            -26.058,
-                                            -8.313
+                                            -123.375,
+                                            -282.226
                                         ],
                                         [
-                                            -19.392,
-                                            -19.149
+                                            -47.129999999999995,
+                                            -251.067
                                         ],
                                         [
-                                            0,
-                                            0
+                                            0.007,
+                                            -204.551
                                         ],
                                         [
-                                            0,
-                                            0
+                                            27.779,
+                                            -231.932
                                         ],
                                         [
-                                            -26.152,
-                                            8.326
+                                            71.178,
+                                            -265.587
                                         ],
                                         [
-                                            -26.989,
-                                            -4.278
+                                            151.551,
+                                            -284.291
                                         ],
                                         [
-                                            -22.104,
-                                            -16.031
+                                            231.574,
+                                            -264.899
                                         ],
                                         [
-                                            -12.307,
-                                            -24.25
+                                            294,
+                                            -211.488
                                         ],
                                         [
-                                            5.91,
-                                            -35.91
+                                            328.384,
+                                            -118.50999999999999
                                         ],
                                         [
-                                            26.018,
-                                            -25.721
+                                            299.722,
+                                            -14.17
                                         ],
                                         [
-                                            0,
-                                            0
+                                            14.878,
+                                            278.043
                                         ]
                                     ],
                                     "o": [
                                         [
-                                            -5.6,
-                                            0
+                                            -5.593,
+                                            284.331
                                         ],
                                         [
-                                            0,
-                                            0
+                                            -14.865,
+                                            278.043
                                         ],
                                         [
-                                            -25.748,
-                                            -25.397
+                                            -299.695,
+                                            -14.075
                                         ],
                                         [
-                                            -5.898,
-                                            -35.936
+                                            -328.38500000000005,
+                                            -118.483
                                         ],
                                         [
-                                            12.279,
-                                            -24.236
+                                            -294,
+                                            -211.474
                                         ],
                                         [
-                                            22.105,
-                                            -16.031
+                                            -231.574,
+                                            -264.899
                                         ],
                                         [
-                                            27.057,
-                                            -4.318
+                                            -151.47,
+                                            -284.33099999999996
                                         ],
                                         [
-                                            26.126,
-                                            8.312
+                                            -71.19099999999999,
+                                            -265.601
                                         ],
                                         [
-                                            0,
-                                            0
+                                            -27.738,
+                                            -231.918
                                         ],
                                         [
-                                            0,
-                                            0
+                                            0.007,
+                                            -204.551
                                         ],
                                         [
-                                            19.352,
-                                            -19.122
+                                            47.131,
+                                            -251.05399999999997
                                         ],
                                         [
-                                            26.072,
-                                            -8.313
+                                            123.402,
+                                            -282.226
                                         ],
                                         [
-                                            27.071,
-                                            4.345
+                                            205.611,
+                                            -275.66799999999995
                                         ],
                                         [
-                                            22.131,
-                                            16.073
+                                            275.80899999999997,
+                                            -232.795
                                         ],
                                         [
-                                            16.49,
-                                            32.549
+                                            322.797,
+                                            -154.689
                                         ],
                                         [
-                                            -5.884,
-                                            35.868
+                                            316.59,
+                                            -46.73199999999999
                                         ],
                                         [
-                                            0,
-                                            0
+                                            273.704,
+                                            11.551
                                         ],
                                         [
-                                            -3.9,
-                                            4.022
+                                            10.978,
+                                            282.065
                                         ]
                                     ],
                                     "v": [
@@ -3823,23 +4014,25 @@
                             },
                             "nm": "Path 2",
                             "mn": "ADBE Vector Shape - Group",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "mm",
                             "mm": 1,
                             "nm": "Merge Paths 1",
                             "mn": "ADBE Vector Filter - Merge",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "fl",
                             "c": {
                                 "a": 0,
                                 "k": [
-                                    0.289999988032,
-                                    0.289999988032,
-                                    0.349000010771,
+                                    0.3488,
+                                    0.2912,
+                                    0.2912,
                                     1
                                 ],
                                 "ix": 4
@@ -3853,7 +4046,8 @@
                             "bm": 0,
                             "nm": "Fill 1",
                             "mn": "ADBE Vector Graphic - Fill",
-                            "hd": false
+                            "hd": false,
+                            "_render": true
                         },
                         {
                             "ty": "tr",
@@ -3901,7 +4095,8 @@
                                 "k": 0,
                                 "ix": 5
                             },
-                            "nm": "Transform"
+                            "nm": "Transform",
+                            "_render": true
                         }
                     ],
                     "nm": "Group 1",
@@ -3910,14 +4105,17 @@
                     "bm": 0,
                     "ix": 1,
                     "mn": "ADBE Vector Group",
-                    "hd": false
+                    "hd": false,
+                    "_render": true
                 }
             ],
             "ip": 0,
             "op": 30.0000012219251,
             "st": 0,
-            "bm": 0
+            "bm": 0,
+            "completed": true
         }
     ],
-    "markers": []
+    "markers": [],
+    "__complete": true
 }
