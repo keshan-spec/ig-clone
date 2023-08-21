@@ -1,9 +1,21 @@
+import { PostCardSkeleton } from '../components/Posts/PostCardSkeleton';
 import { PostCard } from '../components/Posts/PostCard';
 import { useObservedQuery } from '../hooks/useObservedQuery';
 import { IPosts } from 'types';
 
 export const Posts: React.FC = () => {
     const { data, hasNextPage, isLoading, isFetchingNextPage } = useObservedQuery();
+
+    const renderLoading = () => {
+        // 3 post card skeletons
+        return (
+            <>
+                <PostCardSkeleton />
+                <PostCardSkeleton />
+                <PostCardSkeleton />
+            </>
+        );
+    }
 
     return (
         <>
@@ -23,7 +35,7 @@ export const Posts: React.FC = () => {
                 })
             })}
 
-            {isLoading && <div>Loading...</div>}
+            {isLoading && renderLoading()}
             {isFetchingNextPage && <div>Fetching...</div>}
             {!hasNextPage && <div>No more posts</div>}
         </>
