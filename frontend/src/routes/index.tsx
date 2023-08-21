@@ -36,7 +36,8 @@ const MyRoutes: React.FC = () => {
                 })}
                 <Route element={<Page404 />} />
             </Routes>
-
+            {/* seperator */}
+            <div className="h-20" />
             <BottomNavigation />
         </BrowserRouter>
     );

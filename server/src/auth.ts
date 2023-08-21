@@ -7,7 +7,7 @@ export interface MyContext {
     req: Request
 }
 
-const allowlist = ['http://localhost:3000']
+const allowlist = ['http://localhost:3000', 'http://127.0.0.1:5173']
 export const corsOptionsDelegate = function (req: Request, callback: (err: Error | null, options?: CorsOptions) => void) {
     let corsOptions;
     if (allowlist.indexOf(req.header('Origin')!) !== -1) corsOptions = { origin: true, credentials: true }

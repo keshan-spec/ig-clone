@@ -1,4 +1,4 @@
-import { MongoClient, ServerApiVersion } from 'mongodb';
+import { MongoClient, ObjectId, ServerApiVersion } from 'mongodb';
 import { config } from 'dotenv';
 config()
 
@@ -37,13 +37,23 @@ export const getPosts = async (page: string, limit: string, ownerId?: string | n
     const total = await postsCollection.countDocuments(
         ownerId ? { ownerId } : {}
     )
-    const posts = await postsCollection.find(
-        ownerId ? { ownerId } : {}
-    ).skip((parseInt(page as string) - 1) * parseInt(limit as string)).limit(parseInt(limit as string)).toArray()
+    const posts = await postsCollection.find(ownerId ? { ownerId } : {})
+        .skip((parseInt(page as string) - 1) * parseInt(limit as string))
+        .limit(parseInt(limit as string))
+        .toArray()
+
+    // get the username of the owner
+    const usersCollection = db.collection("users");
+    for (let i = 0; i < posts.length; i++) {
+        const data = await usersCollection.findOne({ _id: new ObjectId(posts[i].ownerId) })
+        posts[i].username = data?.username
+    }
+
 
     return {
         data: posts,
         count: posts.length,
+        limit: parseInt(limit as string),
         total,
         page: parseInt(page as string),
     }
