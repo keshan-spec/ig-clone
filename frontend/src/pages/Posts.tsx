@@ -4,6 +4,9 @@ import { useObservedQuery } from '../hooks/useObservedQuery';
 import { PostCardSkeleton } from '../components/Posts/PostCardSkeleton';
 import { PostCard } from '../components/Posts/PostCard';
 
+import noPosts from '../components/Posts/noPosts.json';
+import Lottie from 'lottie-react';
+
 export const Posts: React.FC = () => {
     const { data, isLoading, isFetchingNextPage, error } = useObservedQuery();
 
@@ -31,6 +34,8 @@ export const Posts: React.FC = () => {
             <h1>Something went wrong.</h1>
         </div>
     );
+    console.log(data);
+
 
     return (
         <>
@@ -49,6 +54,19 @@ export const Posts: React.FC = () => {
                     } />
                 })
             })}
+
+            {/* no posts */}
+            {(!data || data.pages[0].data.length === 0) && !isLoading && (
+                <div className="text-center text-white/80 text-4xl font-semibold">
+                    <h1>No posts found</h1>
+                    <Lottie
+                        autoPlay={true}
+                        loop={true}
+                        animationData={noPosts}
+                        className='w-1/2 mx-auto pr-20'
+                    />
+                </div>
+            )}
 
             {isLoading && renderLoading()}
             {isFetchingNextPage && renderFetching()}

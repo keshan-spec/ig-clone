@@ -37,7 +37,9 @@ export const getPosts = async (page: string, limit: string, ownerId?: string | n
     const total = await postsCollection.countDocuments(
         ownerId ? { ownerId } : {}
     )
-    const posts = await postsCollection.find(ownerId ? { ownerId } : {})
+    const posts = await postsCollection
+        .find(ownerId ? { ownerId } : {})
+        .sort({ createdAt: -1 })
         .skip((parseInt(page as string) - 1) * parseInt(limit as string))
         .limit(parseInt(limit as string))
         .toArray()

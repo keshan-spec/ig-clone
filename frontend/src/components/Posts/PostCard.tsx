@@ -10,6 +10,7 @@ export interface PostCardProps {
 import likeAnimation2 from "./likeAnim-lottie-2.json";
 import { maybeLikePost } from '../../api/posts';
 import { Toast } from '../../components/Toast/Toast';
+import { PostTools } from './PostTools';
 
 export const PostCard: React.FC<PostCardProps> = ({
     post
@@ -53,12 +54,10 @@ export const PostCard: React.FC<PostCardProps> = ({
 
         if (!response) {
             // revert optimistic UI
+            setIsLiked(post.likes);
             if (isLiked.includes(postId)) {
-                // unlike
-                setIsLiked(isLiked.filter((id) => id !== userId));
                 setErrorMessage('Failed to unlike post.');
             } else {
-                setIsLiked([...isLiked, userId]);
                 setErrorMessage('Failed to like post.');
             }
         }
@@ -77,19 +76,24 @@ export const PostCard: React.FC<PostCardProps> = ({
     return (
         <>
             {renderToast()}
-            <div className="p-4 max-w-md w-full ">
-                <div className="rounded-xl bg-white dark:bg-zinc-900 h-full cursor-pointer"
+            <div className="relative p-4 max-w-md w-full ">
+                <PostTools key={post._id} postId={post._id} onActionComplete={
+                    (action) => {
+                        setErrorMessage(action);
+                    }
+                } />
+                <div className="rounded-xl bg-white dark:bg-zinc-950 h-full cursor-pointer"
                     // double click to like
                     onDoubleClick={() => likePost(post._id)}
                 >
                     <div className="flex items-center px-4 py-3">
-                        <img className="h-8 w-8 rounded-full" src="https://picsum.photos/id/1027/150/150" />
+                        {/* <img className="h-8 w-8 rounded-full" src="https://picsum.photos/id/1027/150/150" /> */}
                         <div className="ml-3">
                             <span className="text-sm font-semibold antialiased block leading-tight dark:text-white mb-1">{post.username}</span>
                             <span className="text-[.6rem] font-semibold antialiased block leading-tight dark:text-gray-400">{new Date(post.createdAt).toDateString()}</span>
                         </div>
                     </div>
-                    {typeof post.imageUrl === 'string' && <img src={post.imageUrl} alt={post.description} className='w-full' />}
+                    {typeof post.imageUrl === 'string' && <img src={post.imageUrl} alt={post.description} className='w-full max-h-[400px] object-contain' />}
                     <div className="flex items-center mx-4 mt-3 mb-2">
                         {/* like button */}
                         <div className="flex my-3 cursor-pointer relative" onClick={() => likePost(post._id)}>

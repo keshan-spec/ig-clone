@@ -9,7 +9,7 @@ import multer from 'multer';
 import { uploadImage } from './firebase';
 import { ObjectId } from 'mongodb';
 
-const upload = multer({ storage: multer.memoryStorage() });
+const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 10 * 1024 * 1024 }, });
 
 config()
 const app = express(); // create express app
@@ -172,7 +172,9 @@ app.post('/posts', upload.single("image"), async (req, res) => {
         const db = await connect();
         const postsCollection = db.collection("posts");
 
-        const result = await postsCollection.insertOne({ description, imageUrl: downloadURL, ownerId: userId, likes: [] });
+        const result = await postsCollection.insertOne({
+            description, imageUrl: downloadURL, ownerId: userId, likes: [], createdAt: new Date()
+        });
         return res.status(201).send({
             id: result.insertedId,
             description,

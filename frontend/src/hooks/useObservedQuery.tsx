@@ -11,6 +11,7 @@ interface ObservedQueryContextProps {
     isFetchingNextPage: boolean;
     fetchNextPage: () => Promise<any>;
     hasNextPage: boolean | undefined;
+    refetch: () => Promise<any>;
 }
 
 const ObservedQueryContext = createContext<ObservedQueryContextProps>(
@@ -22,17 +23,14 @@ export const useObservedQuery = (): ObservedQueryContextProps => {
 };
 
 export const ObservedQueryProvider = ({ children }: any) => {
-    const { isLoading, error, data, isFetching, fetchNextPage, hasNextPage, isFetchingNextPage } = useInfiniteQuery({
+    const { isLoading, error, data, isFetching, fetchNextPage, hasNextPage, isFetchingNextPage, refetch } = useInfiniteQuery({
         queryKey: ['posts'],
         queryFn: ({ pageParam = 1 }) => {
             return fetchPosts(pageParam);
         },
         getNextPageParam: (lastPage: { total: number, data: IPosts[], limit: number }, pages: any[]) => {
-            // console.log(lastPage, pages);
             const maxPages = Math.ceil(lastPage.total / lastPage.limit);
             const nextPage = pages.length + 1;
-            console.log(nextPage, maxPages);
-
             return nextPage <= maxPages ? nextPage : undefined;
         },
         refetchOnWindowFocus: false,
@@ -70,6 +68,7 @@ export const ObservedQueryProvider = ({ children }: any) => {
         isFetchingNextPage,
         fetchNextPage,
         hasNextPage,
+        refetch
     }
 
     return (
